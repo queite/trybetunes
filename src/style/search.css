@@ -1,0 +1,33 @@
+.search-result {
+  color: rgb(226, 217, 228);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page-search {
+  display: flex;
+}
+
+.page-search div {
+  color: rgb(226, 217, 228);
+  margin: 3%;
+}
+
+.page-search div input {
+  background-color: gray;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin-right: 4px;
+  padding: 7px;
+}
+
+.page-search div button {
+  background-color: rgb(79, 2, 89);
+  border: none;
+  border-radius: 5px;
+  color: rgb(226, 217, 228);
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 7px;
+}

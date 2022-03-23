@@ -1,0 +1,36 @@
+.container {
+  background-color: rgb(38, 38, 43);
+  border: 1px rgb(64, 1, 42) solid;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px;
+  width: 200px;
+}
+
+.container img {
+  align-self: center;
+  margin: 1%;
+  width: min-content;
+}
+
+.container h1 {
+  align-self: center;
+  color: rgb(79, 2, 89);
+  font-size: 1.2rem;
+}
+
+.container h2 {
+  align-self: center;
+  color: rgb(64, 1, 42);
+  font-size: 1rem;
+}
+
+.container div {
+  align-self: center;
+  background-color: rgb(66, 32, 140);
+  border-radius: 10px;
+  margin: 1%;
+  padding: 3% 10%;
+}

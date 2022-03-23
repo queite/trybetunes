@@ -1,0 +1,48 @@
+.player-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 3%;
+  width: 95vw;
+}
+
+.player-container img {
+  width: 150px;
+}
+
+.player-container div {
+  width: 75vw;
+}
+
+.music-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.music-container div {
+  align-items: center;
+  display: flex;
+  justify-content: stretch;
+  min-width: 80%;
+}
+
+.music-container div div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.music-container div span, audio, label {
+  align-self: center;
+  margin: 1%;
+}
+
+.music-container div label {
+  display: flex;
+}
+
+.music-container div span {
+  width: 40%;
+}
+
+.music-container div audio {
+  width: 70%;
+}

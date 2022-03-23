@@ -1,0 +1,33 @@
+header {
+  align-items: center;
+  background-color: rgb(54, 26, 115);
+  box-shadow: 0 5px 5px rgb(80, 79, 79);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+  padding: 1%;
+
+}
+
+header nav a {
+  border-radius: 5px;
+  color: rgb(226, 217, 228);
+  font-family: Acme , sans-serif;
+  font-size: 1.2rem;
+  margin: 10px;
+  padding: 3% 6%;
+  text-decoration: none;
+
+}
+
+.user-container {
+  align-items: center;
+  color: rgb(226, 217, 228);
+  display: flex;
+  font-family: Acme , sans-serif;
+  font-size: 1.1rem;
+}
+
+.user-container svg {
+  margin: 10px;
+}
