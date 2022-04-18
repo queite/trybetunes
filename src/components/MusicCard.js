@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { addSong, removeSong } from '../services/favoriteSongsAPI';
 import Loading from './Loading';
+import '../style/musicCards.css';
 
 export default class MusicCard extends React.Component {
   constructor() {
@@ -39,7 +40,6 @@ export default class MusicCard extends React.Component {
   render() {
     const { music: { trackName, previewUrl, trackId } } = this.props;
     const { loading } = this.state;
-
     return (
       <div>
         { loading
@@ -53,7 +53,6 @@ export default class MusicCard extends React.Component {
                 <code>audio</code>
               </audio>
               <label htmlFor="favorite">
-                Favorita
                 <input
                   data-testid={ `checkbox-music-${trackId}` }
                   type="checkbox"

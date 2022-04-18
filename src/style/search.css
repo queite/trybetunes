@@ -23,7 +23,7 @@
 }
 
 .page-search div button {
-  background-color: rgb(79, 2, 89);
+  background-color: var(--roxo);
   border: none;
   border-radius: 5px;
   color: rgb(226, 217, 228);

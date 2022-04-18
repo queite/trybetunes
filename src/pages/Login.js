@@ -4,6 +4,7 @@ import { Redirect } from 'react-router-dom';
 import { createUser } from '../services/userAPI';
 import Loading from '../components/Loading';
 import '../style/login.css';
+import logo from '../img/trybetunes.png';
 
 export default class Login extends React.Component {
   constructor() {
@@ -30,14 +31,6 @@ export default class Login extends React.Component {
     });
   }
 
-  // formValidation = () => {
-  //   const { loginInput } = this.state;
-  //   const minInputCarac = 3;
-  //   if (loginInput.length >= minInputCarac) {
-  //     this.setState({ isDisabled: false });
-  //   }
-  // }
-
   handleLogin = async () => {
     const { loginInput } = this.state;
     this.setState({ loading: true });
@@ -54,9 +47,10 @@ export default class Login extends React.Component {
       <div className="login-container">
         {
           loading
-            ? <Loading />
+            ? <Loading className="loading" />
             : (
               <div data-testid="page-login" className="login">
+                <img src={ logo } alt="headphone" />
                 <input
                   data-testid="login-name-input"
                   type="text"

@@ -1,0 +1,31 @@
+:root {
+
+  --purple: #4f0259;
+
+  --dark-purple: rgb(64, 1, 42);
+
+  --texto-claro: rgb(226, 217, 228);
+
+  --primaryBlue: rgb(54, 26, 115);
+
+  --background-color: #1f1b24;
+
+  --accent: #0a878c;
+}
+
+body {
+  background-color: var(--background-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro , Menlo , Monaco , Consolas , Courier , monospace;
+}
+
+.loading {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
