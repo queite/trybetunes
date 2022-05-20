@@ -5,9 +5,9 @@ Project developed in the Front-end Module at the [Trybe](https://www.betrybe.com
 Build an application capable of playing songs from the most varied bands and artists, creating a list of favorite songs and editing the profile of the user logged in.
 
 The user should be able to:
-* Fazer login
-* Pesquisar por uma banda ou artista;
-Listar os álbuns disponíveis dessa banda ou artista;
+* Login
+* Search by a band ou artist
+* Listar os álbuns disponíveis dessa banda ou artista;
 Visualizar as músicas de um álbum selecionado;
 Reproduzir uma prévia das músicas deste álbum;
 Favoritar e desfavoritar músicas;
