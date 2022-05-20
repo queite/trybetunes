@@ -7,13 +7,13 @@ Build an application capable of playing songs from the most varied bands and art
 The user should be able to:
 * Login
 * Search by a band ou artist
-* Listar os álbuns disponíveis dessa banda ou artista;
-Visualizar as músicas de um álbum selecionado;
-Reproduzir uma prévia das músicas deste álbum;
-Favoritar e desfavoritar músicas;
-Ver a lista de músicas favoritas;
-Ver o perfil da pessoa logada;
-Editar o perfil da pessoa logada;
+* List available albums by band or artist
+* View songs from a selected album
+* Play a preview of songs
+* Favorite and unfavorite songs
+* See the list of favorite songs
+* See the profile of the logged in person
+* Edit the profile
 
 ---
 <br/>
@@ -40,7 +40,7 @@ Editar o perfil da pessoa logada;
 ---
 
 ### 🔗 Project Links
-* [Page](https://queite.github.io/solar-system/)
+* [Page]()
 
 ---
 
