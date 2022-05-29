@@ -40,7 +40,7 @@ The user should be able to:
 ---
 
 ### 🔗 Project Links
-* [Page]()
+* [Page](https://queite.github.io/trybetunes/)
 
 ---
 
